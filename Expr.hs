@@ -4,6 +4,7 @@ module Expr where
         - a Variable    - x
         - a Function    - \x.e
         - a Application - e1 e2
+        - a Macro       - $x
 --}
 
 data Expr = Variable String
